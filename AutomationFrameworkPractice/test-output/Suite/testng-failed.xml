@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="methods" name="Test(failed)">
+    <classes>
+      <class name="PageTestsPackage.HomePageTest">
+        <methods>
+          <include name="validateFlagTest"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- PageTestsPackage.HomePageTest -->
+      <class name="PageTestsPackage.SignInPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="validateNeedHelpTest"/>
+          <include name="tearDown"/>
+          <include name="validateSignInPageTest2"/>
+          <include name="validateContinueTest"/>
+          <include name="validateCreateAccountTest"/>
+        </methods>
+      </class> <!-- PageTestsPackage.SignInPageTest -->
+      <class name="PageTestsPackage.SignInPage1Test">
+        <methods>
+          <include name="validateSignInPage3Test"/>
+          <include name="validateForgotPasswordButtonTest"/>
+          <include name="setUp"/>
+          <include name="validateSignInPage1TitleTest"/>
+          <include name="validateSignInButtonTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- PageTestsPackage.SignInPage1Test -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
